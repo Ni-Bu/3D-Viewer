@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Colab: 3D Viewer</title>
+		<link rel="stylesheet" href="viewer.css" />
+	</head>
+	<body>
+		<div id="viewer-container">
+			<div id="loading">Loading Model...</div>
+			<canvas id="viewer"></canvas>
+			<div id="controls">
+				<button id="zoom-in" class="control-btn">Zoom In</button>
+				<button id="zoom-out" class="control-btn">Zoom Out</button>
+				<button id="reset-view" class="control-btn">Reset View</button>
+				<button id="toggle-scrollwheel" class="control-btn">Scrollwheel zoom: On</button>
+			</div>
+		</div>
+		<script type="module" src="viewer.js"></script>
+	</body>
+</html>
